@@ -30,18 +30,11 @@ namespace WpfApp1
                     XYZ C = new XYZ(Convert.ToDouble(mw.txtCx.Text), Convert.ToDouble(mw.txtCy.Text), Convert.ToDouble(mw.txtCz.Text));
                     XYZ D = new XYZ(Convert.ToDouble(mw.txtDx.Text), Convert.ToDouble(mw.txtDy.Text), Convert.ToDouble(mw.txtDz.Text));
 
-                    Line AB = new Line(A, B);
-                    Line CD = new Line(C, D);
                     try
                     {
-                        int i = 100000000;
-                        while (i > 0)
+                        foreach (XYZ pt in new Line(A, B).Inter(new Line(C, D)))
                         {
-                            foreach (XYZ pt in AB.Inter(CD))
-                            {
-                                //mw.txtResult.Text += pt.Write() + '\n';
-                            }
-                            i--;
+                            mw.txtResult.Text += pt.Write() + '\n';
                         }
                     }
                     catch { }
