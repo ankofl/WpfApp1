@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="250">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox Name="txtAx" Grid.Column="0" Margin="5"/>
+        <TextBox Name="txtAy" Grid.Column="1" Margin="5"/>
+        <TextBox Name="txtAz" Grid.Column="2" Margin="5"/>
+
+        <TextBox Name="txtBx" Grid.Column="0" Grid.Row="1" Margin="5"/>
+        <TextBox Name="txtBy" Grid.Column="1" Grid.Row="1" Margin="5"/>
+        <TextBox Name="txtBz" Grid.Column="2" Grid.Row="1" Margin="5"/>
+
+        <TextBox Name="txtCx" Grid.Column="0" Grid.Row="2" Margin="5"/>
+        <TextBox Name="txtCy" Grid.Column="1" Grid.Row="2" Margin="5"/>
+        <TextBox Name="txtCz" Grid.Column="2" Grid.Row="2" Margin="5"/>
+
+        <TextBox Name="txtDx" Grid.Column="0" Grid.Row="3" Margin="5"/>
+        <TextBox Name="txtDy" Grid.Column="1" Grid.Row="3" Margin="5"/>
+        <TextBox Name="txtDz" Grid.Column="2" Grid.Row="3" Margin="5"/>
+
+        <TextBox Name="txtResult" Grid.Row="4" Grid.ColumnSpan="3" Margin="5"/>
+
+        <Button Name="btnStart" Content="Math" Grid.Row="5" Margin="5"/>
+    </Grid>
+</Window>
