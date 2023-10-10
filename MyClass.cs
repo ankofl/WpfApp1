@@ -28,7 +28,6 @@ namespace WpfApp1
                     XYZ A = new XYZ(Convert.ToDouble(mw.txtAx.Text), Convert.ToDouble(mw.txtAy.Text), Convert.ToDouble(mw.txtAz.Text));
                     XYZ B = new XYZ(Convert.ToDouble(mw.txtBx.Text), Convert.ToDouble(mw.txtBy.Text), Convert.ToDouble(mw.txtBz.Text));
                     XYZ C = new XYZ(Convert.ToDouble(mw.txtCx.Text), Convert.ToDouble(mw.txtCy.Text), Convert.ToDouble(mw.txtCz.Text));
-
                     XYZ D = new XYZ(Convert.ToDouble(mw.txtDx.Text), Convert.ToDouble(mw.txtDy.Text), Convert.ToDouble(mw.txtDz.Text));
 
                     try
