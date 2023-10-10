@@ -20,21 +20,21 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox Name="txtAx" Grid.Column="0" Margin="5"/>
-        <TextBox Name="txtAy" Grid.Column="1" Margin="5"/>
-        <TextBox Name="txtAz" Grid.Column="2" Margin="5"/>
+        <TextBox Text="0" Name="txtAx" Grid.Column="0" Margin="5"/>
+        <TextBox Text="0" Name="txtAy" Grid.Column="1" Margin="5"/>
+        <TextBox Text="0" Name="txtAz" Grid.Column="2" Margin="5"/>
 
-        <TextBox Name="txtBx" Grid.Column="0" Grid.Row="1" Margin="5"/>
-        <TextBox Name="txtBy" Grid.Column="1" Grid.Row="1" Margin="5"/>
-        <TextBox Name="txtBz" Grid.Column="2" Grid.Row="1" Margin="5"/>
+        <TextBox Text="0" Name="txtBx" Grid.Column="0" Grid.Row="1" Margin="5"/>
+        <TextBox Text="0" Name="txtBy" Grid.Column="1" Grid.Row="1" Margin="5"/>
+        <TextBox Text="0" Name="txtBz" Grid.Column="2" Grid.Row="1" Margin="5"/>
 
-        <TextBox Name="txtCx" Grid.Column="0" Grid.Row="2" Margin="5"/>
-        <TextBox Name="txtCy" Grid.Column="1" Grid.Row="2" Margin="5"/>
-        <TextBox Name="txtCz" Grid.Column="2" Grid.Row="2" Margin="5"/>
+        <TextBox Text="0" Name="txtCx" Grid.Column="0" Grid.Row="2" Margin="5"/>
+        <TextBox Text="0" Name="txtCy" Grid.Column="1" Grid.Row="2" Margin="5"/>
+        <TextBox Text="0" Name="txtCz" Grid.Column="2" Grid.Row="2" Margin="5"/>
 
-        <TextBox Name="txtDx" Grid.Column="0" Grid.Row="3" Margin="5"/>
-        <TextBox Name="txtDy" Grid.Column="1" Grid.Row="3" Margin="5"/>
-        <TextBox Name="txtDz" Grid.Column="2" Grid.Row="3" Margin="5"/>
+        <TextBox Text="0" Name="txtDx" Grid.Column="0" Grid.Row="3" Margin="5"/>
+        <TextBox Text="0" Name="txtDy" Grid.Column="1" Grid.Row="3" Margin="5"/>
+        <TextBox Text="0" Name="txtDz" Grid.Column="2" Grid.Row="3" Margin="5"/>
 
         <TextBox Name="txtResult" Grid.Row="4" Grid.ColumnSpan="3" Margin="5"/>
 
