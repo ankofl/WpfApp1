@@ -42,7 +42,7 @@ namespace WpfApp1
                 }
                 catch
                 {
-                    mw.btnStart.Background = Brushes.Red;
+                    mw.btnStart.Background = Brushes.Coral;
                 }
             }
         }
