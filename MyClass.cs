@@ -38,7 +38,7 @@ namespace WpfApp1
                         }
                     }
                     catch { }
-                    mw.btnStart.Background = Brushes.LightGray;
+                    mw.btnStart.Background = Brushes.DimGray;
                 }
                 catch
                 {
