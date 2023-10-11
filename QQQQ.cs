@@ -16,7 +16,7 @@ namespace WpfApp1
         {
             mw = new MainWindow();
             mw.btnStart.Click += BtnStart_Click;
-            mw.ShowDialog();
+            mw.ShowDialog();aaa
         }
         private static void BtnStart_Click(object sender, System.Windows.RoutedEventArgs e)
         {
