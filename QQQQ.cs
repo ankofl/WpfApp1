@@ -8,7 +8,7 @@ using System.Windows.Media;
 using WpfApp1.Geometry;
 
 namespace WpfApp1
-{
+{dd
     public static class MyClass
     {
         private static MainWindow? mw = null;
