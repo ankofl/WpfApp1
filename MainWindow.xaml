@@ -36,8 +36,8 @@
         <TextBox Text="0" Name="txtDy" Grid.Column="1" Grid.Row="3" Margin="5"/>
         <TextBox Text="0" Name="txtDz" Grid.Column="2" Grid.Row="3" Margin="5"/>
 
-        <TextBox Text="Slot" Name="txtResult" Grid.Row="4" Grid.ColumnSpan="3" Margin="5"/>
+        <TextBox Text="Sloted" Name="txtResult" Grid.Row="4" Grid.ColumnSpan="3" Margin="5"/>
 
-        <Button Name="btnStart" Content="Math" Grid.Row="5" Margin="5"/>
+        <Button Name="btnStart" Content="Mathed" Grid.Row="5" Margin="5"/>
     </Grid>
 </Window>
